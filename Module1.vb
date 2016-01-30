@@ -107,10 +107,11 @@ Module Module1
 				combination(money_kind) = value '1円玉だから金額そのまま
 				If prime(combination.Sum()) Then
 					For i = 0 To 8
-						'Console.Write(combination(i) & " ")
+						Console.Write(combination(i) & " ")
 					Next
 					result += 1
-					'Console.WriteLine(sum & " " & result)
+					Console.WriteLine()
+					'Console.WriteLine(result)
 				End If
 			End If
 			Exit Sub
